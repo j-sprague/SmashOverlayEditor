@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Default Cursor"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[2000, 600]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="p1Name" min="-2" pref="149" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="p1Score" min="-2" pref="149" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Component id="p1Character" min="-2" pref="149" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                      <Component id="loss1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="53" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="31" pref="31" max="-2" attributes="0"/>
+                          <Component id="p2Score" min="-2" pref="149" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="p2Name" min="-2" pref="149" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="p2Character" min="-2" pref="149" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="top8gen" min="-2" pref="1" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="scoreAuto" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="loss2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="255" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="saveMsg" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="commentary" min="-2" pref="227" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="rightMsg" min="-2" pref="227" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="leftMsg" min="-2" pref="161" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="bestOf" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="saveButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="240" max="-2" attributes="0"/>
+              <Component id="fakeCombo" min="-2" pref="0" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="p1Name" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                              <Component id="loss1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="p1Score" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="p1Character" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="p2Name" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="loss2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="p2Score" min="-2" pref="35" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="p2Character" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jCheckBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="top8gen" alignment="3" min="-2" pref="1" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="scoreAuto" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                      <Component id="leftMsg" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="bestOf" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="saveMsg" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rightMsg" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="saveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="commentary" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Component id="fakeCombo" min="-2" pref="0" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Score1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Character1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p1Name">
+      <Properties>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="p1Score"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p1NameActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="p1NameKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="p1Score">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="p1Character"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="p1ScoreStateChanged"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="p1ScoreKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="p1Character">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="87">
+            <StringItem index="0" value="&lt;none&gt;"/>
+            <StringItem index="1" value="Mario"/>
+            <StringItem index="2" value="Donkey Kong"/>
+            <StringItem index="3" value="Link"/>
+            <StringItem index="4" value="Samus"/>
+            <StringItem index="5" value="Dark Samus"/>
+            <StringItem index="6" value="Yoshi"/>
+            <StringItem index="7" value="Kirby"/>
+            <StringItem index="8" value="Fox"/>
+            <StringItem index="9" value="Pikachu"/>
+            <StringItem index="10" value="Luigi"/>
+            <StringItem index="11" value="Ness"/>
+            <StringItem index="12" value="Captain Falcon"/>
+            <StringItem index="13" value="Jigglypuff"/>
+            <StringItem index="14" value="Peach"/>
+            <StringItem index="15" value="Daisy"/>
+            <StringItem index="16" value="Bowser"/>
+            <StringItem index="17" value="Icies"/>
+            <StringItem index="18" value="Sheik"/>
+            <StringItem index="19" value="Zelda"/>
+            <StringItem index="20" value="Dr. Mario"/>
+            <StringItem index="21" value="Pichu"/>
+            <StringItem index="22" value="Falco"/>
+            <StringItem index="23" value="Marth"/>
+            <StringItem index="24" value="Lucina"/>
+            <StringItem index="25" value="Young Link"/>
+            <StringItem index="26" value="Ganondorf"/>
+            <StringItem index="27" value="Mewtwo"/>
+            <StringItem index="28" value="Roy"/>
+            <StringItem index="29" value="Chrom"/>
+            <StringItem index="30" value="Mr. G&amp;W"/>
+            <StringItem index="31" value="Meta Knight"/>
+            <StringItem index="32" value="Pit"/>
+            <StringItem index="33" value="Dark Pit"/>
+            <StringItem index="34" value="Zero Suit Samus"/>
+            <StringItem index="35" value="Wario"/>
+            <StringItem index="36" value="Snake"/>
+            <StringItem index="37" value="Ike"/>
+            <StringItem index="38" value="Pokemon Trainer"/>
+            <StringItem index="39" value="Diddy Kong"/>
+            <StringItem index="40" value="Lucas"/>
+            <StringItem index="41" value="Sonic"/>
+            <StringItem index="42" value="King Dedede"/>
+            <StringItem index="43" value="Olimar"/>
+            <StringItem index="44" value="Lucario"/>
+            <StringItem index="45" value="ROB"/>
+            <StringItem index="46" value="Toon Link"/>
+            <StringItem index="47" value="Wolf"/>
+            <StringItem index="48" value="Villager"/>
+            <StringItem index="49" value="Mega Man"/>
+            <StringItem index="50" value="Wii Fit Trainer"/>
+            <StringItem index="51" value="Rosalina &amp; Luma"/>
+            <StringItem index="52" value="Little Mac"/>
+            <StringItem index="53" value="Greninja"/>
+            <StringItem index="54" value="Mii Brawler"/>
+            <StringItem index="55" value="Mii Swordfighter"/>
+            <StringItem index="56" value="Mii Gunner"/>
+            <StringItem index="57" value="Palutena"/>
+            <StringItem index="58" value="Pac-Man"/>
+            <StringItem index="59" value="Robin"/>
+            <StringItem index="60" value="Shulk"/>
+            <StringItem index="61" value="Bowser Jr."/>
+            <StringItem index="62" value="Duck Hunt"/>
+            <StringItem index="63" value="Ryu"/>
+            <StringItem index="64" value="Ken"/>
+            <StringItem index="65" value="Cloud"/>
+            <StringItem index="66" value="Corrin"/>
+            <StringItem index="67" value="Bayonetta"/>
+            <StringItem index="68" value="Inkling"/>
+            <StringItem index="69" value="Ridley"/>
+            <StringItem index="70" value="Simon"/>
+            <StringItem index="71" value="Richter"/>
+            <StringItem index="72" value="King K Rool"/>
+            <StringItem index="73" value="Isabelle"/>
+            <StringItem index="74" value="Incineroar"/>
+            <StringItem index="75" value="Piranha Plant"/>
+            <StringItem index="76" value="Joker"/>
+            <StringItem index="77" value="Hero"/>
+            <StringItem index="78" value="Banjo &amp; Kazooie"/>
+            <StringItem index="79" value="Terry"/>
+            <StringItem index="80" value="Byleth"/>
+            <StringItem index="81" value="Min Min"/>
+            <StringItem index="82" value="Steve"/>
+            <StringItem index="83" value="Sephiroth"/>
+            <StringItem index="84" value="Pyra+Mythra"/>
+            <StringItem index="85" value="Kazuya"/>
+            <StringItem index="86" value="Sora"/>
+          </StringArray>
+        </Property>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="p2Name"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p1CharacterActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Player2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Score2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Character2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="p2Character">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="87">
+            <StringItem index="0" value="&lt;none&gt;"/>
+            <StringItem index="1" value="Mario"/>
+            <StringItem index="2" value="Donkey Kong"/>
+            <StringItem index="3" value="Link"/>
+            <StringItem index="4" value="Samus"/>
+            <StringItem index="5" value="Dark Samus"/>
+            <StringItem index="6" value="Yoshi"/>
+            <StringItem index="7" value="Kirby"/>
+            <StringItem index="8" value="Fox"/>
+            <StringItem index="9" value="Pikachu"/>
+            <StringItem index="10" value="Luigi"/>
+            <StringItem index="11" value="Ness"/>
+            <StringItem index="12" value="Captain Falcon"/>
+            <StringItem index="13" value="Jigglypuff"/>
+            <StringItem index="14" value="Peach"/>
+            <StringItem index="15" value="Daisy"/>
+            <StringItem index="16" value="Bowser"/>
+            <StringItem index="17" value="Icies"/>
+            <StringItem index="18" value="Sheik"/>
+            <StringItem index="19" value="Zelda"/>
+            <StringItem index="20" value="Dr. Mario"/>
+            <StringItem index="21" value="Pichu"/>
+            <StringItem index="22" value="Falco"/>
+            <StringItem index="23" value="Marth"/>
+            <StringItem index="24" value="Lucina"/>
+            <StringItem index="25" value="Young Link"/>
+            <StringItem index="26" value="Ganondorf"/>
+            <StringItem index="27" value="Mewtwo"/>
+            <StringItem index="28" value="Roy"/>
+            <StringItem index="29" value="Chrom"/>
+            <StringItem index="30" value="Mr. G&amp;W"/>
+            <StringItem index="31" value="Meta Knight"/>
+            <StringItem index="32" value="Pit"/>
+            <StringItem index="33" value="Dark Pit"/>
+            <StringItem index="34" value="Zero Suit Samus"/>
+            <StringItem index="35" value="Wario"/>
+            <StringItem index="36" value="Snake"/>
+            <StringItem index="37" value="Ike"/>
+            <StringItem index="38" value="Pokemon Trainer"/>
+            <StringItem index="39" value="Diddy Kong"/>
+            <StringItem index="40" value="Lucas"/>
+            <StringItem index="41" value="Sonic"/>
+            <StringItem index="42" value="King Dedede"/>
+            <StringItem index="43" value="Olimar"/>
+            <StringItem index="44" value="Lucario"/>
+            <StringItem index="45" value="ROB"/>
+            <StringItem index="46" value="Toon Link"/>
+            <StringItem index="47" value="Wolf"/>
+            <StringItem index="48" value="Villager"/>
+            <StringItem index="49" value="Mega Man"/>
+            <StringItem index="50" value="Wii Fit Trainer"/>
+            <StringItem index="51" value="Rosalina &amp; Luma"/>
+            <StringItem index="52" value="Little Mac"/>
+            <StringItem index="53" value="Greninja"/>
+            <StringItem index="54" value="Mii Brawler"/>
+            <StringItem index="55" value="Mii Swordfighter"/>
+            <StringItem index="56" value="Mii Gunner"/>
+            <StringItem index="57" value="Palutena"/>
+            <StringItem index="58" value="Pac-Man"/>
+            <StringItem index="59" value="Robin"/>
+            <StringItem index="60" value="Shulk"/>
+            <StringItem index="61" value="Bowser Jr."/>
+            <StringItem index="62" value="Duck Hunt"/>
+            <StringItem index="63" value="Ryu"/>
+            <StringItem index="64" value="Ken"/>
+            <StringItem index="65" value="Cloud"/>
+            <StringItem index="66" value="Corrin"/>
+            <StringItem index="67" value="Bayonetta"/>
+            <StringItem index="68" value="Inkling"/>
+            <StringItem index="69" value="Ridley"/>
+            <StringItem index="70" value="Simon"/>
+            <StringItem index="71" value="Richter"/>
+            <StringItem index="72" value="King K Rool"/>
+            <StringItem index="73" value="Isabelle"/>
+            <StringItem index="74" value="Incineroar"/>
+            <StringItem index="75" value="Piranha Plant"/>
+            <StringItem index="76" value="Joker"/>
+            <StringItem index="77" value="Hero"/>
+            <StringItem index="78" value="Banjo &amp; Kazooie"/>
+            <StringItem index="79" value="Terry"/>
+            <StringItem index="80" value="Byleth"/>
+            <StringItem index="81" value="Min Min"/>
+            <StringItem index="82" value="Steve"/>
+            <StringItem index="83" value="Sephiroth"/>
+            <StringItem index="84" value="Pyra+Mythra"/>
+            <StringItem index="85" value="Kazuya"/>
+            <StringItem index="86" value="Sora"/>
+          </StringArray>
+        </Property>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="jButton2"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p2CharacterActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="p2Score">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="p2Character"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="p2ScoreStateChanged"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="p2ScoreKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="p2Name">
+      <Properties>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="p2Score"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="p2NameActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="p2NameKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LeftMsg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RightMsg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="leftMsg">
+      <Properties>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="rightMsg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="leftMsgActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="leftMsgKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="rightMsg">
+      <Properties>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="commentary"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rightMsgActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="rightMsgKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="commentary">
+      <Properties>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="saveButton"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="commentaryActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="commentaryKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="saveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save Changes..."/>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="p1Name"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/streamprint/switch.png"/>
+        </Property>
+        <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="leftMsg"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="fakeCombo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="87">
+            <StringItem index="0" value="&lt;none&gt;"/>
+            <StringItem index="1" value="Mario"/>
+            <StringItem index="2" value="Donkey Kong"/>
+            <StringItem index="3" value="Link"/>
+            <StringItem index="4" value="Samus"/>
+            <StringItem index="5" value="Dark Samus"/>
+            <StringItem index="6" value="Yoshi"/>
+            <StringItem index="7" value="Kirby"/>
+            <StringItem index="8" value="Fox"/>
+            <StringItem index="9" value="Pikachu"/>
+            <StringItem index="10" value="Luigi"/>
+            <StringItem index="11" value="Ness"/>
+            <StringItem index="12" value="Captain Falcon"/>
+            <StringItem index="13" value="Jigglypuff"/>
+            <StringItem index="14" value="Peach"/>
+            <StringItem index="15" value="Daisy"/>
+            <StringItem index="16" value="Bowser"/>
+            <StringItem index="17" value="Icies"/>
+            <StringItem index="18" value="Sheik"/>
+            <StringItem index="19" value="Zelda"/>
+            <StringItem index="20" value="Dr. Mario"/>
+            <StringItem index="21" value="Pichu"/>
+            <StringItem index="22" value="Falco"/>
+            <StringItem index="23" value="Marth"/>
+            <StringItem index="24" value="Lucina"/>
+            <StringItem index="25" value="Young Link"/>
+            <StringItem index="26" value="Ganondorf"/>
+            <StringItem index="27" value="Mewtwo"/>
+            <StringItem index="28" value="Roy"/>
+            <StringItem index="29" value="Chrom"/>
+            <StringItem index="30" value="Mr. G&amp;W"/>
+            <StringItem index="31" value="Meta Knight"/>
+            <StringItem index="32" value="Pit"/>
+            <StringItem index="33" value="Dark Pit"/>
+            <StringItem index="34" value="Zero Suit Samus"/>
+            <StringItem index="35" value="Wario"/>
+            <StringItem index="36" value="Snake"/>
+            <StringItem index="37" value="Ike"/>
+            <StringItem index="38" value="Pokemon Trainer"/>
+            <StringItem index="39" value="Diddy Kong"/>
+            <StringItem index="40" value="Lucas"/>
+            <StringItem index="41" value="Sonic"/>
+            <StringItem index="42" value="King Dedede"/>
+            <StringItem index="43" value="Olimar"/>
+            <StringItem index="44" value="Lucario"/>
+            <StringItem index="45" value="ROB"/>
+            <StringItem index="46" value="Toon Link"/>
+            <StringItem index="47" value="Wolf"/>
+            <StringItem index="48" value="Villager"/>
+            <StringItem index="49" value="Mega Man"/>
+            <StringItem index="50" value="Wii Fit Trainer"/>
+            <StringItem index="51" value="Rosalina &amp; Luma"/>
+            <StringItem index="52" value="Little Mac"/>
+            <StringItem index="53" value="Greninja"/>
+            <StringItem index="54" value="Mii Brawler"/>
+            <StringItem index="55" value="Mii Swordfighter"/>
+            <StringItem index="56" value="Mii Gunner"/>
+            <StringItem index="57" value="Palutena"/>
+            <StringItem index="58" value="Pac-Man"/>
+            <StringItem index="59" value="Robin"/>
+            <StringItem index="60" value="Shulk"/>
+            <StringItem index="61" value="Bowser Jr."/>
+            <StringItem index="62" value="Duck Hunt"/>
+            <StringItem index="63" value="Ryu"/>
+            <StringItem index="64" value="Ken"/>
+            <StringItem index="65" value="Cloud"/>
+            <StringItem index="66" value="Corrin"/>
+            <StringItem index="67" value="Bayonetta"/>
+            <StringItem index="68" value="Inkling"/>
+            <StringItem index="69" value="Ridley"/>
+            <StringItem index="70" value="Simon"/>
+            <StringItem index="71" value="Richter"/>
+            <StringItem index="72" value="King K Rool"/>
+            <StringItem index="73" value="Isabelle"/>
+            <StringItem index="74" value="Incineroar"/>
+            <StringItem index="75" value="Piranha Plant"/>
+            <StringItem index="76" value="Joker"/>
+            <StringItem index="77" value="Hero"/>
+            <StringItem index="78" value="Banjo &amp; Kazooie"/>
+            <StringItem index="79" value="Terry"/>
+            <StringItem index="80" value="Byleth"/>
+            <StringItem index="81" value="Min Min"/>
+            <StringItem index="82" value="Steve"/>
+            <StringItem index="83" value="Sephiroth"/>
+            <StringItem index="84" value="Pyra+Mythra"/>
+            <StringItem index="85" value="Kazuya"/>
+            <StringItem index="86" value="Sora"/>
+          </StringArray>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fakeComboActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="saveMsg">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save successful!"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Commentary"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Update: October 21, 2021   "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="AlwaysOnTop"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="loss1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="[L]"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="loss1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="loss2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="[L]"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="loss2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="bestOf">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="(Bo3)"/>
+            <StringItem index="1" value="(Bo5)"/>
+            <StringItem index="2" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bestOfActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="top8gen">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Top8Gen"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="top8genActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="scoreAuto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ScoreAutoSave"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scoreAutoActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
